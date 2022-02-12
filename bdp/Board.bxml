@@ -1,0 +1,273 @@
+<Machine name='Board' type='abstraction'>
+<Concrete_Constants>
+<Attr>
+<Pos l='8' c='1' s='18'/>
+</Attr>
+<Id value='Ladders' typref='3603043417'>
+<Attr>
+<Pos l='9' c='5' s='7'/>
+</Attr>
+</Id>
+<Id value='Snakes' typref='3603043417'>
+<Attr>
+<Pos l='10' c='5' s='6'/>
+</Attr>
+</Id>
+<Id value='Squares' typref='3603043417'>
+<Attr>
+<Pos l='11' c='5' s='7'/>
+</Attr>
+</Id>
+<Id value='Start' typref='2701647786'>
+<Attr>
+<Pos l='12' c='5' s='5'/>
+</Attr>
+</Id>
+<Id value='End' typref='2701647786'>
+<Attr>
+<Pos l='13' c='5' s='3'/>
+</Attr>
+</Id>
+</Concrete_Constants>
+<Properties>
+<Attr>
+<Pos l='15' c='1' s='10'/>
+</Attr>
+<Nary_Pred op='&amp;'>
+<Exp_Comparison op='&lt;:'>
+<Attr>
+<Pos l='16' c='13' s='2'/>
+</Attr>
+<Id value='Squares' typref='3603043417'>
+<Attr>
+<Pos l='16' c='5' s='7'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='16' c='16' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='16' c='31' s='1'/>
+</Attr>
+<Id value='Squares' typref='3603043417'>
+<Attr>
+<Pos l='16' c='23' s='7'/>
+</Attr>
+</Id>
+<Binary_Exp op='..' typref='3603043417'>
+<Attr>
+<Pos l='16' c='34' s='2'/>
+</Attr>
+<Integer_Literal value='1' typref='2701647786'>
+<Attr>
+<Pos l='16' c='33' s='1'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='100' typref='2701647786'>
+<Attr>
+<Pos l='16' c='36' s='3'/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op='&lt;:'>
+<Attr>
+<Pos l='17' c='11' s='2'/>
+</Attr>
+<Id value='Snakes' typref='3603043417'>
+<Attr>
+<Pos l='17' c='5' s='6'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='17' c='14' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='17' c='28' s='1'/>
+</Attr>
+<Id value='Snakes' typref='3603043417'>
+<Attr>
+<Pos l='17' c='21' s='6'/>
+</Attr>
+</Id>
+<Nary_Exp op='{' typref='3603043417'>
+<Attr>
+<Pos l='17' c='30' s='1'/>
+</Attr>
+<Integer_Literal value='16' typref='2701647786'>
+<Attr>
+<Pos l='17' c='31' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='31' typref='2701647786'>
+<Attr>
+<Pos l='17' c='35' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='47' typref='2701647786'>
+<Attr>
+<Pos l='17' c='39' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='63' typref='2701647786'>
+<Attr>
+<Pos l='17' c='43' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='66' typref='2701647786'>
+<Attr>
+<Pos l='17' c='47' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='97' typref='2701647786'>
+<Attr>
+<Pos l='17' c='51' s='2'/>
+</Attr>
+</Integer_Literal>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op='&lt;:'>
+<Attr>
+<Pos l='18' c='12' s='2'/>
+</Attr>
+<Id value='Ladders' typref='3603043417'>
+<Attr>
+<Pos l='18' c='5' s='7'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='18' c='15' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='18' c='30' s='1'/>
+</Attr>
+<Id value='Ladders' typref='3603043417'>
+<Attr>
+<Pos l='18' c='22' s='7'/>
+</Attr>
+</Id>
+<Nary_Exp op='{' typref='3603043417'>
+<Attr>
+<Pos l='18' c='32' s='1'/>
+</Attr>
+<Integer_Literal value='3' typref='2701647786'>
+<Attr>
+<Pos l='18' c='33' s='1'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='10' typref='2701647786'>
+<Attr>
+<Pos l='18' c='36' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='27' typref='2701647786'>
+<Attr>
+<Pos l='18' c='40' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='56' typref='2701647786'>
+<Attr>
+<Pos l='18' c='44' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='61' typref='2701647786'>
+<Attr>
+<Pos l='18' c='48' s='2'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='72' typref='2701647786'>
+<Attr>
+<Pos l='18' c='52' s='2'/>
+</Attr>
+</Integer_Literal>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=':'>
+<Attr>
+<Pos l='19' c='10' s='1'/>
+</Attr>
+<Id value='Start' typref='2701647786'>
+<Attr>
+<Pos l='19' c='5' s='5'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='19' c='12' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='19' c='25' s='1'/>
+</Attr>
+<Id value='Start' typref='2701647786'>
+<Attr>
+<Pos l='19' c='19' s='5'/>
+</Attr>
+</Id>
+<Integer_Literal value='1' typref='2701647786'>
+<Attr>
+<Pos l='19' c='27' s='1'/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op=':'>
+<Attr>
+<Pos l='20' c='8' s='1'/>
+</Attr>
+<Id value='End' typref='2701647786'>
+<Attr>
+<Pos l='20' c='5' s='3'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='20' c='10' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='20' c='21' s='1'/>
+</Attr>
+<Id value='End' typref='2701647786'>
+<Attr>
+<Pos l='20' c='17' s='3'/>
+</Attr>
+</Id>
+<Integer_Literal value='100' typref='2701647786'>
+<Attr>
+<Pos l='20' c='23' s='3'/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+</Nary_Pred>
+</Properties>
+<Initialisation>
+<Skip/>
+</Initialisation>
+<TypeInfos>
+<Type id='3603043417'>
+<Unary_Exp op='POW'>
+<Id value='INTEGER'/>
+</Unary_Exp>
+</Type>
+<Type id='2701647786'>
+<Id value='INTEGER'/>
+</Type>
+</TypeInfos>
+
+</Machine>
