@@ -743,24 +743,24 @@
 <Pos l='56' c='5' s='12'/>
 </Attr>
 </Id>
-<Id value='NAT' typref='3603043417'>
+<Id value='NAT1' typref='3603043417'>
 <Attr>
-<Pos l='56' c='19' s='3'/>
+<Pos l='56' c='19' s='4'/>
 </Attr>
 </Id>
 </Exp_Comparison>
 <Exp_Comparison op='&lt;='>
 <Attr>
-<Pos l='56' c='38' s='2'/>
+<Pos l='56' c='39' s='2'/>
 </Attr>
 <Id value='lastDieValue' typref='2701647786'>
 <Attr>
-<Pos l='56' c='25' s='12'/>
+<Pos l='56' c='26' s='12'/>
 </Attr>
 </Id>
 <Integer_Literal value='6' typref='2701647786'>
 <Attr>
-<Pos l='56' c='41' s='1'/>
+<Pos l='56' c='42' s='1'/>
 </Attr>
 </Integer_Literal>
 </Exp_Comparison>
@@ -917,7 +917,7 @@
 </Id>
 </Variables>
 <Values>
-<Integer_Literal value='7' typref='2701647786'>
+<Integer_Literal value='1' typref='2701647786'>
 <Attr>
 <Pos l='66' c='21' s='1'/>
 </Attr>
@@ -1088,7 +1088,7 @@
 </Id>
 </Variables>
 <Values>
-<Integer_Literal value='0' typref='2701647786'>
+<Integer_Literal value='1' typref='2701647786'>
 <Attr>
 <Pos l='79' c='25' s='1'/>
 </Attr>
@@ -1302,18 +1302,18 @@
 </Attr>
 </Id>
 </Exp_Comparison>
-<Exp_Comparison op='&lt;='>
+<Exp_Comparison op='&lt;'>
 <Attr>
-<Pos l='102' c='37' s='2'/>
+<Pos l='102' c='37' s='1'/>
 </Attr>
 <Id value='diceValue' typref='2701647786'>
 <Attr>
 <Pos l='102' c='27' s='9'/>
 </Attr>
 </Id>
-<Integer_Literal value='6' typref='2701647786'>
+<Integer_Literal value='7' typref='2701647786'>
 <Attr>
-<Pos l='102' c='40' s='1'/>
+<Pos l='102' c='39' s='1'/>
 </Attr>
 </Integer_Literal>
 </Exp_Comparison>

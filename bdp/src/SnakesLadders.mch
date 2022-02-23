@@ -53,7 +53,7 @@ INVARIANT
     numOfTurns : NAT &
     playerRoute : seq ( INTEGER ) &
     diceRoll : NAT & diceRoll <= 6 &
-    lastDieValue : NAT & lastDieValue <= 6 &
+    lastDieValue : NAT1 & lastDieValue <= 6 &
     gameStatus <: GAME_STATUS
 
 INITIALISATION
@@ -63,7 +63,7 @@ INITIALISATION
     numOfTurns := 0 ||
     playerRoute := [ 1 ] ||
     diceRoll := 0 ||
-    lastDieValue := 7 ||
+    lastDieValue := 1 ||
     gameStatus := { GameNotOver }
 
 OPERATIONS
@@ -76,7 +76,7 @@ OPERATIONS
         numOfTurns := 0 ||
         playerRoute := [ 1 ] ||
         diceRoll := 0 ||
-        lastDieValue := 0 ||
+        lastDieValue := 1 ||
         gameStatus := { GameNotOver }
     END ;
 
@@ -99,7 +99,7 @@ OPERATIONS
     report , currentPosition <-- Move ( diceValue ) =
     /*Setting the condition for the dice roll*/
     PRE
-        diceValue : NAT1 & diceValue <= 6 &
+        diceValue : NAT1 & diceValue < 7 &
         report : MOVE_REPORT
     THEN
         /* Check if game is not over */
